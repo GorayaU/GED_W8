@@ -10,7 +10,7 @@ public class Fuel : MonoBehaviour
     
     [SerializeField] private TextMeshProUGUI fuelText;
     [SerializeField] private int startingFuel = 500;
-    [SerializeField] private float burnRate = 1f;
+    [SerializeField] private float burnRate = 0.3f;
 
     private int _fuel;
 
