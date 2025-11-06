@@ -2,7 +2,7 @@
 
 ## Reflection
 
-### Observer 
-There is an observer that will check on the fuel stat, after 2 fuels are used a new enemy will spawn  
-### State
-A state to check if the game should continue or if it should end
+### Dirty Flag
+The text for the fuel UI gets updated when the value is changed, instead of every frame
+### Object Pooling
+The enemy cars are in a list, after a certain amount of time they get de activated, set to another position then re activated. instead of the old system where i would create an distory game objects every time.
